@@ -1,0 +1,135 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  margin-top: 150px;
+  margin-bottom: 75px;
+  font-family: 'Pacifico', cursive;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#main_photo {
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+#second_section {
+  width: 100%;
+  background: white;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#third_section {
+  width: 100%;
+  background: white;
+  margin-top: 0;
+}
+
+#black_section {
+  width: 100%;
+  height: 250px;
+  background: black;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  position: relative;
+  bottom: 150px;
+  color: white;
+  padding: 25px;
+}
+
+#second_h1 {
+  color: black;
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  top: -125px;
+}
+
+#second_h3 {
+  color: black;
+  padding: 5px;
+  position: relative;
+  top: -150px;
+}
+
+#third_h1 {
+  color: black;
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  top: -275px;
+}
+
+#third_h3 {
+  color: black;
+  padding: 5px;
+  position: relative;
+  top: -275px;
+}
+
+ .bg-dark {
+  background: transparent !important;
+}
+
+
+#lower_photo {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  height: 560px;
+  background-image: url(https://images.unsplash.com/photo-1485224151730-11a063fff5d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#button {
+  position: relative;
+  top: -175px;
+  width: 40%;
+  background: black;
+  border: none;
+  padding: 25px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+#button:hover {
+  background-color: #212121;
+
+}
+
+#foot {
+  width: 100%;
+  height: 100px;
+  background: black;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  text-align: center;
+
+}
+
+#foot ul li {
+  text-decoration: none;
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px 25px 5px 25px;
+  margin-top: auto 0;
+  margin-top: 25px;
+}
+
+#foot i {
+  color: white;
+  display: inline-block;
+}
